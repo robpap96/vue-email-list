@@ -12,11 +12,10 @@
 <body>
     <div id="app">
         <div class="email-list" >
-            <ul>
+            <ul v-if="mails.length == 10">
                 <li v-for="(mail, index) in mails">{{mail}}</li>
-                <h2> Genero le mail...</h2>
-            </ul>   
-            
++           </ul>   
+            <h2 v-else>Genero le mail..</h2>
         </div>
         
     </div>

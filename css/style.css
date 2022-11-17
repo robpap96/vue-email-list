@@ -3,13 +3,4 @@
     padding: 0;
     margin: 0;
 }
-.email-list ul{
-    display: none;
-}
-.show {
-    display: block;
-}
-.hide {
-    display: none;
 
-}
